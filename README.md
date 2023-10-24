@@ -40,3 +40,25 @@ k or -reset- timestamp invalidates the timestamp file
 -g or -group = group runs command like a specified group  name or id
 
 -h or host runs comand on the host 
+
+## Pwd
+
+Use the pwd command to find a path  of your present working directory. Simply entering pwd will return the full current path - a path of all directories that start with forward slash(/). For example /home/ubuntu
+
+pwd command uses the syntax below
+
+
+`pwd [options]`
+
+it has two acceptable options:
+
+-L = -Logical print environment variable content, including symbolic links
+
+-P = - physial prints the actual of the current directory.
+
+Here is the general syntax
+
+`pwd`
+
+![pwd](./img/2.pwd.png)
+
