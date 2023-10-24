@@ -61,3 +61,28 @@ Here is the general syntax
 
 ![pwd](./img/2.pwd.png)
 
+## cd command:
+
+To navigate through Linux files and directories use th cd command. Depending on your current working directories, it requires either full path or directory name.
+
+Running this folder without an option will take you to an home folder. Keep in in that only users with sudo privlees can execute it.
+
+If you want to switch, for example home/ubuntu commad Linux/commadlinux
+
+`cd /home/ubuntu/commandslinux`
+
+Here are some shortcut to help you navigate
+
+cd ~ [username] goes to another users directory
+
+cd .. moves one directory up
+
+cd- moves to your previous directory
+
+![cd](./img/3.cd.png)
+
+
+
+
+
+
