@@ -40,7 +40,6 @@ k or -reset- timestamp invalidates the timestamp file
 -g or -group = group runs command like a specified group  name or id
 
 -h or host runs comand on the host 
-
 ## Pwd
 
 Use the pwd command to find a path  of your present working directory. Simply entering pwd will return the full current path - a path of all directories that start with forward slash(/). For example /home/ubuntu
