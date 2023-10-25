@@ -40,7 +40,7 @@ k or -reset- timestamp invalidates the timestamp file
 -g or -group = group runs command like a specified group  name or id
 
 -h or host runs comand on the host 
-## Pwd
+## 2. Pwd
 
 Use the pwd command to find a path  of your present working directory. Simply entering pwd will return the full current path - a path of all directories that start with forward slash(/). For example /home/ubuntu
 
@@ -61,7 +61,7 @@ Here is the general syntax
 
 ![pwd](./img/2.pwd.png)
 
-## cd command:
+## 3. cd command:
 
 To navigate through Linux files and directories use th cd command. Depending on your current working directories, it requires either full path or directory name.
 
@@ -81,7 +81,7 @@ cd- moves to your previous directory
 
 ![cd](./img/3.cd.png)
 
-## ls command
+## 4. ls command
 
 ls command is the list of files and directories within a system. Running it without a flag or parameter will show current working directory's content.
 
@@ -103,7 +103,7 @@ Here are some options you can use with ls tool:
 ![ls](./img/4c.ls%20-lh.png)
 
 
-## cat command
+## 5. cat command
 
  Conacetate or cat is the most used linux commands. its lists, combine and writes file content to the standard output. To run the cat command, type cat followed by the file name and its extension. For instance
 
@@ -111,7 +111,7 @@ Here are some options you can use with ls tool:
 
  ![cat](./img/5.cat%20commands.png)
 
- ## cp command
+ ## 6. cp command
 
  Use the cp command to copy files or directories and their content, Take a look at the following use cases
 
