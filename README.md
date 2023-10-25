@@ -90,16 +90,38 @@ To see other directories content, type "ls" followed by the desired path. for ex
 ![ls](./img/4.ls.png)
 Here are some options you can use with ls tool:
 
-`ls -R
-List all fine within subdirectories
+`ls -R` List all fine within subdirectories
 
-ls -a
-Shows hidden files, in addition to the visible ones
+![ls](./img/4a.ls%20-R.png)
 
-ls -lh
-shows the file size in readable format, such as MB, GB and TB
+`ls -a` Shows hidden files, in addition to the visible ones
+
+![ls](./img/4b.ls%20-a.png)
+
+`ls -lh` shows the file size in readable format, such as MB, GB and TB
+
+![ls](./img/4c.ls%20-lh.png)
+
 
 ## cat command
+
+ Conacetate or cat is the most used linux commands. its lists, combine and writes file content to the standard output. To run the cat command, type cat followed by the file name and its extension. For instance
+
+`cat tutorial`
+
+ ![cat](./img/5.cat%20commands.png)
+
+ ## cp command
+
+ Use the cp command to copy files or directories and their content, Take a look at the following use cases
+
+ To copy files from a directory to another, enter cp followed by filename and the destination directory. For example
+
+ 
+
+
+
+
 
 
 
