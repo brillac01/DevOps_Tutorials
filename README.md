@@ -117,6 +117,62 @@ Here are some options you can use with ls tool:
 
  To copy files from a directory to another, enter cp followed by filename and the destination directory. For example
 
+ ![cp](./img/6.cp.png)
+
+ ## 7. mv command
+
+"mv" command is primarily used to move and rename files and directories. It does not produce an output after execution
+
+![mv](./img/7.mv%20commands.png)
+
+## 8. mkdir command
+
+mkdir command is used to create one or multiple file at once and set permissions for each of them
+
+![mkdir](./img/8.mkdir%20command.png)
+
+## 9. rmdir command
+
+Used rmdir command to remove and empty directories, permanently
+
+`rmdir`
+
+![rmdir](./img/9.rmdir%20-p.png)
+
+10. rm command
+
+"rm" command is used to delete file in a directories.
+
+Always remember that this process can not be undone
+
+`rm filename`
+
+![rm](./img/10..rm%20command1.png)
+
+## 11. touch  command
+
+"touch" command is used to create a new file
+
+![touch](./img/11.touch.png)
+
+## 12. locate command
+
+locate command can be used to find a file in the system database.
+
+Moreover adding argument -i, case sensitivity will be turned of for easier seacrh
+
+![locate](./img/12.locate.png)
+
+## 13. find command
+
+"find" command is used to search for a file within a specific directory and perform subsequent operations.
+
+![find](./img/13.find.png)
+
+## 14. grepp command
+
+its a basic linux 
+
  
 
 
