@@ -81,6 +81,28 @@ cd- moves to your previous directory
 
 ![cd](./img/3.cd.png)
 
+## ls command
+
+ls command is the list of files and directories within a system. Running it without a flag or parameter will show current working directory's content.
+
+
+To see other directories content, type "ls" followed by the desired path. for example to view files in document directories.
+![ls](./img/4.ls.png)
+Here are some options you can use with ls tool:
+
+`ls -R
+List all fine within subdirectories
+
+ls -a
+Shows hidden files, in addition to the visible ones
+
+ls -lh
+shows the file size in readable format, such as MB, GB and TB
+
+## cat command
+
+
+
 
 
 
