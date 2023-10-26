@@ -169,9 +169,69 @@ Moreover adding argument -i, case sensitivity will be turned of for easier seacr
 
 ![find](./img/13.find.png)
 
-## 14. grepp command
+## 14. grep command
 
-its a basic linux 
+its a basic linux command, it is "global regular expression print. It helps you search a word within a file in a specific dirctory.
+
+Once grep command find match, it prints all line that contain specific pattern. The command helps filter through large log files
+
+The command output will display lines that contain blue.
+
+![grep](./img/14.grep.png)
+
+## 15. df command
+
+Use thr df command to report the system' disk usage, shown in percentage and kilobyte(KB). Here is the general syntax.
+
+`df -h`
+
+![df](./img/15.df.png)
+
+## 16. du command 
+
+Used when you want to know the space a directory or a file takes up. You can run this command to know which part of your system uses storage excessively 
+
+![head](./img/16.du.png)
+
+## 17. head command
+
+The "head" command allows you to veiw th first 10 lines of a text. Adding an options lets you change the number of lines shown.
+
+Here is the general syntax
+
+`head [options] [file]
+
+![head](./img/17.head.png)
+
+## 18. tail command
+
+The "tail" command displays the last ten lines of a file. it allows you to know whether has new data or read error messages
+
+`tail[option] [file]`
+
+![tail](./img/17.head.png)
+
+## 19. diff command
+
+Sort for different, compares two content of a file line by line. after analysing them, it will display part that do not match.
+
+Programmer often used the diff command to altar a program instead of rewriting the entire source code.
+
+
+Here are the syntax
+
+`diff [option][file1][file2]`
+
+![diff](./img/19.diff%20command.png)
+
+## 20. tar command
+
+The "tar" command archives multiple files into tar. file, Its a common Linux format similar to zip, with optional compression
+
+Here are the basic syntax
+
+`tar [options]{archive_file 1][file]`
+
 
  
 
