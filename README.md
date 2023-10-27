@@ -232,6 +232,64 @@ Here are the basic syntax
 
 `tar [options]{archive_file 1][file]`
 
+![tar](./img/20.tar%20command.png)
+
+# File Permission and Ownership
+
+## 21. chmod command
+
+chmod is a common command that modifies a file or directory's read, write, and execute permission. In Linux each file is associated with three users classes, owner, group member and others.
+
+Here is the basic syntax.
+
+`chmod[option][permission][filename]`
+
+![chmod](./img/21.chmod%20command.png)
+
+## 22. chown command
+
+The chown command lets you change ownership of a file, directory or a symbolic link to a specified usersname
+
+Here is the basic syntax
+
+`chown [option] owner[:group] file(s)`
+
+## 23. Job command
+
+A job is a process that the shell start , the job command command will display all the running process along with their statuses. Remember that this command is only available in csh, bash, tcsh, ksh shells
+
+Here are the basic syntax
+
+`job [options] jobID`
+
+![jobs](./img/22.jobs%20command.png)
+
+## 24. kill command
+
+Use the kill command to terminate unresponsive programme manually. it will signal misbehaving  application and instruct them to close their process
+
+To Kill a programme you must know the process identification number, (PID) , If you dont know the PID, run the following command:
+
+`ps -ux`
+
+After knowning the signal used, and the program PID. Enter the following syntax
+
+`kill {signal_option}pid`
+
+## 25. ping command
+
+ping command is one of the most used basic Linux command for checking whether a network of server is reachable. In addition it is used to troubleshoot connectivity issues.
+
+`ping [options] [hostname or IP address]`
+
+## 26. wget
+
+This Linux command lets you download files from the internet using the wget command, it works in the background without hindering other running processes.
+
+
+
+
+
 
  
 
