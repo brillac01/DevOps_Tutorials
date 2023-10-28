@@ -355,8 +355,73 @@ The zip command is also useful for archiving file and directories and reducing t
 
 ## 33. hostname command
 
+Run hostname command for the system's hostname, you can execute it with or without an option.
 
+Here is the general syntax
 
+`hostname[options]`
+
+There are many options to use including:
+
+-a or -alias, displays the hostname alias or -A which displays the machine fully qualified domain name(FQDN), -ip which displays the IP address of the machine
+
+![hostname](./img/33.hostname%20command.png)
+
+## 34. useradd, userdel command
+
+Linux is a multi user system, meaning more than one person can use it simultaenously, useradd is used to create a new account while the passwd command allows you to add password. only those with sudo privileges can run useradd command
+
+When you use useradd command, it performs some major changes.
+
+Edits the /etc/passwd,/etc/shadow,/etc/group, files for the newly created accounts. Creates and populate new home directoriesfor the user. Set files permission and ownerships to the home directories.
+Here are the basic syntax
+
+`useradd [options] username`
+
+To set the password,
+
+`passwd the_password_combination`
+
+For example to add new person named "john", here are the following steps:
+
+`useradd john`
+
+`passwd 1234567`
+
+To delete a user account, use the userdel commansd:
+
+`userdel username`
+
+![useradd](./img/34.useradd%20command.png )
+
+## 35. apt-get command
+
+It is a command line tool used for handling Advanced packaged tool (APT) libraries in the Linux. It lets you retrieve informayion and bundles from authenticated sources to manage, update, remove and install softwares and its dependencies.
+
+Running apt-get command rquires you to use sudo or root privileges.
+
+Here are the main syntax:
+
+`apt-get [options] (command)`
+
+Most common command that can be added to apt-get are;
+
+-update sychronises the package files from their sources
+-upgrade install the latest versrion of all installed packages, check updates the package cache, and check broken dependencies.
+
+## 36. nano, vi, jed commands
+
+LINUX allows user edit and manage files via text editor such as nano, vi or jed. nano and vi comes with the operating system but jed has to be installed.
+
+nano commands denote keywords ans can work with most languages, To use it enter the following command
+
+`nano [filename]`
+
+vi uses two operating modes to work - insert and command, insert is sed to edit and create text file, on the other hand command performs operations such s svaing, opening, copying and pasting a file
+
+To use vi on a file, enter
+
+`vi [filenamw]`
 
 
 
