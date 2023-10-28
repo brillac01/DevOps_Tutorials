@@ -286,6 +286,77 @@ ping command is one of the most used basic Linux command for checking whether a 
 
 This Linux command lets you download files from the internet using the wget command, it works in the background without hindering other running processes.
 
+To use this command, follow this
+
+`wget [options] [url]`
+
+## 27. uname
+
+The uname or unix name command will print a detail informtion about your Linux system and hardware. This include machine name, operating system and kernel.
+
+To run this command, simply enter your uname to CLI.
+
+Here is the Basic Sytax
+
+`uname [options]`
+
+![uname](./img/27.uname.png)
+
+## 28. top command 
+
+The top command in Linux will display all running processes and dynamic realtime veiw of the current system. it sums up the resource  utilisation, from CPU to memory usage.
+
+The top command can also let you identify and terminate a process, that may use many system resources.
+
+To run the command, simply enter top to the CLI
+
+`top`
+
+![top](./img/28.top.png)
+
+## 29. history command
+
+With history the system will list up to 500 previously executed command, allowing you to reuse them without re entering them. Keeping in mind only users with sudo privileges can execute this command. how this utility runs is determined by the kind of linux shell you use.
+
+To run it, enter the command below
+
+`history [option]`
+
+![history](./img/29.history.png)
+
+## 30. man command
+
+The man provides user manual of any command or utilities you can use on the terminal, including the name, description and options.
+
+It consists of nine sections
+
+Here is the basic syntax below
+
+`man [command_name]`
+
+![man](./img/30.man%20command.png)
+
+## 31. echo
+
+The echo command is a built utility that dislay the lines of text and strings using the standard output.
+
+Here is the basic syntax
+
+`echo [option][strings]`
+
+## 32. zip, unzip command
+
+Use the zip command to compress your file, into a zip file, a universal format commonly used on Linux. It can  automatically choose the best compression ratio.
+The zip command is also useful for archiving file and directories and reducing the disk usage.
+
+`zip [options][zipfile] file1 file2`
+
+![zip](./img/32.zip%20command.png)
+
+## 33. hostname command
+
+
+
 
 
 
