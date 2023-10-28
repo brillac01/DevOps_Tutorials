@@ -423,6 +423,61 @@ To use vi on a file, enter
 
 `vi [filenamw]`
 
+jed has a drop down menu interface that allows user to perform actions without entering keyboard combination or commands like vi. it has mode to load modules or pluggins to write specific texts.
+
+To open the program simply enter jed to the command line
+
+## 37. alias, unalias commands.
+
+alias allows younto create short cut with the same functionality as a command filename or text. when executed it instruct the shell to replace one string to another.
+
+To use alias command enter the syntax below
+
+`alias name=string`
+
+![alias](./img/37.alias.png)
+
+## 38. su command
+
+When executed about any options or arguments, the su command runs through root privileges. it will prompt you to authenticate and use sudo privileges temporarily.
+
+Here are some acceptable pivileges to use:
+
+-p or -preserve-environment keep the same shell environment consisting of home, shell, user and logname. -s or -shell allows you to specify different shell environment to run. - l or - login runs a login script to switch to a diferent username.Executing it requires you to enter users password.
+
+![su](./img/38.su.png)
+
+
+## 39. htop command
+
+The htop command is an inetractive program that monitors system resources and server process in real time its available on most Linux distros and you can install using default package manager.
+
+Compared top command htop command has many improvements and and additional features such as mouse operation and visual indicators.
+
+To use it, use the following command
+
+`htop [options]`
+
+use can also add options of -d for delay, shows the delay between updates in tenth of seconds. -c or -no_color enables monochrome mode -h or -help displays the help message and exit.
+
+## 40. ps command
+
+The process status or ps command produce a snap shot of all running processes in your system. The static results are taken from the virtual file in the /proc file system.
+
+Executing ps command without an options or argument list out all running process in the shell along with :
+
+The unique process ID,PID,The Type of the terminal, TTY, The running time, (TIME). The command that launches the process (CMD)
+
+Here are some acceptable :
+
+-T Display all processes associated with the current shell section
+
+-u username list processes associated with a specific user.
+
+-A or -e shows all running process
+
+![ps](./img/40.ps%20commands.png)
+
 
 
 
